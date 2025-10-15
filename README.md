@@ -1,4 +1,4 @@
-# Android Emulator System Catalog
+# armtoy
 
 This repository contains a demo catalog of Android-x86 system images for use with custom Android emulator apps or testing environments 🚀.
 
