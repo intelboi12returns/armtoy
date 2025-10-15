@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Android Pie x86",
+    "tag": "android-x86-9.0-k49",
+    "url": "https://downloads.sourceforge.net/project/android-x86/Release%209.0/android-x86_64-9.0-r2-k49.iso",
+    "sha256": "1E73EDA82F2C937F68BD12E667785830C318A15DCF0F671376859E8FDEE0005C",
+    "arch": "x86_64"
+  },
+  {
+    "name": "Android Oreo x86",
+    "tag": "android-x86-8.1-k49",
+    "url": "https://downloads.sourceforge.net/project/android-x86/Release%208.1/android-x86_64-8.1-r6-k49.iso",
+    "sha256": "313124ea2f8647b09321e20b56e0d5cb9417e0de",
+    "arch": "x86_64"
+  }
+]
