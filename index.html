@@ -1,99 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ARMTOY X86</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #283138; /* new background */
-      color: #e8f0f2;
-      margin: 0;
-      text-align: center;
-    }
-
-    header {
-      padding: 30px 0 10px;
-    }
-
-    header img {
-      width: 180px;
-      height: auto;
-    }
-
-    nav {
-      background-color: #08121B; /* new navbar color */
-      padding: 10px;
-    }
-
-    nav a {
-      color: #2f9fcb;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    section {
-      display: none;
-      padding: 40px 20px;
-    }
-
-    section.active {
-      display: block;
-    }
-
-    footer {
-      margin-top: 60px;
-      font-size: 14px;
-      color: #999;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="IMG_20251016_145245.png" alt="ARMTOY Logo" />
-    <h1>ARMTOY X86</h1>
-  </header>
-
-  <nav>
-    <a href="#" onclick="showSection('systems')">Systems</a>
-    <a href="#" onclick="showSection('screen')">Screen</a>
-    <a href="#" onclick="showSection('about')">About</a>
+  <nav class="navbar">
+    <img src="IMG_20251016_145245.png" alt="ARMTOY x86 Logo" class="logo">
+    <button class="menu-btn">&#9776;</button>
   </nav>
 
-  <section id="systems" class="active">
-    <h2>Available Systems</h2>
-    <ul style="list-style:none; padding:0;">
-      <li>Android Pie (Lineage)</li>
-      <li>Android Oreo</li>
-    </ul>
-  </section>
-
-  <section id="screen">
-    <h2>Demo Screen</h2>
-    <p>[This is where your emulator preview or UI will go]</p>
-  </section>
-
-  <section id="about">
-    <h2>About</h2>
-    <p>Created by <strong>Ashraaf Fazari (intelboi12returns)</strong> 😊</p>
-    <p>ARMTOY X86 lets you explore and test Android-x86 systems easily.</p>
-  </section>
-
-  <footer>
-    <p>© 2025 ARMTOY Project</p>
-  </footer>
-
-  <script>
-    function showSection(id) {
-      document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
-      document.getElementById(id).classList.add("active");
-    }
-  </script>
+  <main>
+    <section class="screen">
+      <div class="display"></div>
+      <button class="choose-btn">Choose system...</button>
+    </section>
+  </main>
 </body>
-  </html>
+    </html>
